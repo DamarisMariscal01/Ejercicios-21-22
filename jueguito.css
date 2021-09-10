@@ -1,0 +1,16 @@
+body{
+    background-color: burlywood;
+}
+button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+hr{
+    border-color: rgb(20, 157, 220);
+    background-color:cyan;
+    width: 30px;
+    height: 20px;
+}

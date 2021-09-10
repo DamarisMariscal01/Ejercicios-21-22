@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="banco.css">
+    <script src="./banco.js"></script>
+    <title>Dinero Gratis</title>
+</head>
+<body>
+    <div class="bienvenida" id="bienvenida">
+        <!--Página Inicio-->
+        <!--Texto inicial-->
+        <h1 class="texto1">Hola, bienvend@ a dinerogratis.com, por favor presiona "Continuar" para Iniciar Sesión</h1>
+        <button class="botonBienvenida" onclick="pasoPag1()">Continuar</button>
+    </div>
+
+    <div class="registroLogin">
+        <!--Inicio de sesión-->
+        <div class="pagLogin" id="pagLogin">
+            <h1 class="loginTitulo">Inicia sesión aquí ▼ </h1>
+    
+            <div class="contenedorLogin">
+                <!--Pedir user-->
+                <label for="username">Ingresa tu username:</label><br>
+                <input type="text" id="user" name="username"><br>
+    
+                <!--Pedir contraseña-->
+                <label for="pwd">Coloca tu contraseña:</label><br>
+                <input type="password" id="contrasena" name="pwd"><br><br>
+    
+                <!--Botón para función boton-->
+                <button id="loginn" onclick="loginn()">Login</button>
+            </div>
+        </div>
+    </div> 
+
+    <section class="pagInfo" id="pagInfo">
+        <div class="infooo">
+            <nav>
+                <p class="navEmpresa">Dinero Gratis</p>
+                <p class="navName">Damaris Mariscal</p>
+            </nav>
+
+            <button id="saldo" onclick="saldo()">Saldo Actual</button>
+            <button id="ahorrar" onclick="ahorrar()">Ingresar Dinero</button>
+            <button id="quitar" onclick="quitar()">Retirar Dinero</button>
+        </div>
+    </section>
+
+    <div class="saldoActual">
+        <div></div>
+    </div>
+</body>
+</html>

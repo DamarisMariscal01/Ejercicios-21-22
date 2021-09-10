@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Over+the+Rainbow&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: black;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+button {
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*bienvenida*/
+.bienvenida {
+    text-align: center;
+}
+
+.texto1{
+    font-size: 50px;
+    width: 75%;
+    /* centrar vertical y horizontalmente */
+    color: blanchedalmond;
+}
+
+.botonBienvenida {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botonBienvenida:hover{
+    border-color: rgb(131, 70, 180);
+    background-color: rgb(131, 70, 180);
+    color: white;
+    cursor: pointer;
+}
+
+
+/*registro e inicio de sesión*/
+.pagLogin{
+    position: relative;
+}
+
+.loginTitulo{
+    font-size: 50px;
+}
+
+.contenedorLogin{
+    border: 8px solid #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+label {
+    font-size: 25px;
+    height: 60px;
+    line-height: 29px;
+    left: 407px;
+}
+
+input, #loginn{
+    cursor: pointer;
+    height: 50px;
+    width: 600px;
+    left: 407px;
+    top: 419px;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: start;
+    border-color: transparent;
+}
+
+#loginn{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(180, 131, 212);
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    font-family: "Raleway" , sans-serif;
+    font-size: 25px;
+    margin: 1.5%;
+}
+
+nav{
+    background-color: blueviolet;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navName {
+    font-size: 28px;
+}
+
+.navEmpresa {
+    font-size: 55px;
+    font-style: bold;
+}
+/*navegador fijo*/
+
+.pagInfo{
+    top: 10%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1 , .h2 , .h3 , .h4 , .h5{
+    font-family: 'Raleway', cursive;
+}
+
+/*bloqueando páginas*/
+.pagLogin , .pagInfo{
+    display: none;
+}
