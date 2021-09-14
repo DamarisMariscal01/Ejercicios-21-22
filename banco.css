@@ -122,7 +122,12 @@ nav{
     font-family: 'Raleway', cursive;
 }
 
+.saldooo{
+    color: blueviolet;
+    text-decoration: burlywood;
+    font-size: xx-large;
+}
 /*bloqueando páginas*/
-.pagLogin , .pagInfo{
+.pagLogin , .pagInfo , #saldoActual , #ingresarAhorrar , #retirarQuitar{
     display: none;
 }
